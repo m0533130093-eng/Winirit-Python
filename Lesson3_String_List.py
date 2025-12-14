@@ -8,3 +8,8 @@ if __name__ == '__main__':
     print("Enter String")
     str1=input()
     print(str1[1:len(str1)-1:2])
+    # tar4 class
+    print("Enter String")
+    str2=input()
+    print(str2.upper())
+    print(str2[:3:1].upper()+str2[3:len(str)-3:1].lower()+str2[len(str)-3::].upper())
